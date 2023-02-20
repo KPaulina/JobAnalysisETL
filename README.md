@@ -1,6 +1,5 @@
 # JobAnalysisETL
-Project which gathers data from MongoDB and visiualizes it
-# ExchangeRateETLPipeline
+Project which gathers data from MongoDB in order to store it in postgres and visualize it
 
 ## Technologies
 
