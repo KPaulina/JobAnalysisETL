@@ -14,6 +14,7 @@ def connect_to_mongodb_for_python_jobs():
     for job in all_python_offers:
         list_of_python_jobs.append(job)
     df_python_all_for_the_day = pd.DataFrame(list_of_python_jobs)
+    print(df_python_all_for_the_day.info())
     return df_python_all_for_the_day
 
 
